@@ -1,0 +1,6 @@
+First
+pypy-requirements.txt for PyPy; cpython-requirements.txt for CPython
+Then
+python manage.py run_gunicorn --workers="number of cores plus one" --worker-class=eventlet
+Then
+time sh test.sh
